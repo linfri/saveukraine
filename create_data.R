@@ -1,10 +1,11 @@
-# The code chunk which creates artist databases
+# The code chunk which creates artist databases.
 
-# Loading the necessary libraries
+# Loading the necessary libraries.
 library(RSQLite)
 library(DBI)
 
-# Creating the #SaveUkraine (SU) data frame, in the ugly way
+# Creating the #SaveUkraine (SU) data frame, in the ugly way.
+# I am NEVER doing it like this again!
 artist <- c(
   "Mila Chiral",
   "2fel",
